@@ -1,0 +1,21 @@
+public class Lastoccurence{
+    public static void main(String[] args) {
+    
+        int[] arr = {9,2,5,3,2,2};
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int k = scanner.nextInt();
+
+        int lastIndex = -1;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == k) {
+                lastIndex = i;
+            }
+        }
+        if (lastIndex != -1) {
+            System.out.println(k + " last occurs at index: " + lastIndex);
+        }
+    }
+}
