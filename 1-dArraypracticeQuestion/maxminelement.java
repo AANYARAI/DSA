@@ -13,7 +13,7 @@ public class maxminelement {
             }
         }
 
-        System.out.println("Maximum element in the array is: " + max);
-        System.out.println("Minimum element in the array is: " + min);
+            System.out.println("Maximum element in the array is: " + max);
+            System.out.println("Minimum element in the array is: " + min);
     }
 }

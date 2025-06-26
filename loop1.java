@@ -1,3 +1,4 @@
+
 public class loop1 {
     public static void main(String[] args) {
         int[] nums = {3,2,1,6,5};

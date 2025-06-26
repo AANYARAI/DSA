@@ -5,13 +5,13 @@ public class PalindromeChecker {
 
         while (left < right) {
             if (arr[left] != arr[right]) {
-                return false;  // Not a palindrome
+                return false; 
             }
             left++;
             right--;
         }
 
-        return true;  // All matched
+        return true;  
     }
 
     public static void main(String[] args) {
