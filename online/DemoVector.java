@@ -108,3 +108,15 @@ public class DemoVector {
 }
 
 
+
+// ArryaList al = new ArrayList();
+// List l = collection.SynchronizedList(al);
+
+// convert non- synchronized list int synchronized list 
+
+
+// STACK
+// 1.it is child class of vector
+// 2. it works on LIFO principle
+
+
